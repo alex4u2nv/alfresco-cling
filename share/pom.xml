@@ -26,10 +26,10 @@
             <version>${alfresco.version}</version>
             <type>war</type>
         </dependency>
-        <!-- Demonstrating the dependency / installation of the share AMP developed in the 'share-amp' module -->
+        <!-- Demonstrating the dependency / installation of the share AMP developed in the 'cling-ui' module -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>share-amp</artifactId>
+            <artifactId>cling-ui</artifactId>
             <version>${project.version}</version>
             <type>amp</type>
         </dependency>
@@ -69,7 +69,7 @@
                         <!-- Add / sort your AMPs here -->
                         <overlay>
                             <groupId>${project.groupId}</groupId>
-                            <artifactId>share-amp</artifactId>
+                            <artifactId>cling-ui</artifactId>
                             <type>amp</type>
                         </overlay>
                         <!-- Uncomment if you are using RM module -->
