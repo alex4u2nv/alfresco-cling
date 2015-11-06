@@ -21,9 +21,6 @@
     <!-- FTP Server -->
 
     <bean id="upnpServer" class="org.alfresco.extension.dlna.ClingService"  destroy-method="stopServer">
-        <!--<constructor-arg>-->
-            <!--<ref local="fileServerConfiguration" />-->
-        <!--</constructor-arg>-->
 		<property name="filesysConfig" ref="fileServerConfiguration"/>
     </bean>
 
